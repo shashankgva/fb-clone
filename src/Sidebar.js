@@ -14,14 +14,18 @@ function Sidebar() {
   const [{ user }, dispatch] = useStateValue();
   return (
     <div className="sidebar">
-      <SidebarRow title={user.displayName} src={user.photoURL} />
-      <SidebarRow title="Covid 19 Info" Icon={LocalHospitalIcon} />
-      <SidebarRow title="Pages" Icon={EmojiFlagsIcon} />
-      <SidebarRow title="Friends" Icon={PeopleIcon} />
-      <SidebarRow title="Messages" Icon={ChatIcon} />
-      <SidebarRow title="Market Place" Icon={StorefrontIcon} />
-      <SidebarRow title="Videos" Icon={VideoLibraryIcon} />
-      <SidebarRow title="See More" Icon={ExpandMoreIcon} />
+      <SidebarRow title={user.displayName} src={user.photoURL} key="sidebar1" />
+      <SidebarRow
+        title="Covid 19 Info"
+        Icon={LocalHospitalIcon}
+        key="sidebar2"
+      />
+      <SidebarRow title="Pages" Icon={EmojiFlagsIcon} key="sidebar3" />
+      <SidebarRow title="Friends" Icon={PeopleIcon} key="sidebar4" />
+      <SidebarRow title="Messages" Icon={ChatIcon} key="sidebar5" />
+      <SidebarRow title="Market Place" Icon={StorefrontIcon} key="sidebar6" />
+      <SidebarRow title="Videos" Icon={VideoLibraryIcon} key="sidebar7" />
+      <SidebarRow title="See More" Icon={ExpandMoreIcon} key="sidebar8" />
     </div>
   );
 }

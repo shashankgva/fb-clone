@@ -1,14 +1,12 @@
 import firebase from 'firebase';
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyAIdAsL3h0fiQsj1LM_35-8FheauwUyZqc',
-  authDomain: 'burger-builder-b51cb.firebaseapp.com',
-  databaseURL: 'https://burger-builder-b51cb.firebaseio.com',
-  projectId: 'burger-builder-b51cb',
-  storageBucket: 'burger-builder-b51cb.appspot.com',
-  messagingSenderId: '522205579815',
-  appId: '1:522205579815:web:8518b2a507884179bc1c02',
-  measurementId: 'G-MXRZ64ZFNY',
+  apiKey: 'AIzaSyBOJ2jK0Ujr8ygFXM3mC4mhiiWjnRcweSg',
+  authDomain: 'facebook-clone-443f4.firebaseapp.com',
+  projectId: 'facebook-clone-443f4',
+  storageBucket: 'facebook-clone-443f4.appspot.com',
+  messagingSenderId: '971247226151',
+  appId: '1:971247226151:web:49e32dc46a0461a912ad02',
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
