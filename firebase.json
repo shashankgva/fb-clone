@@ -1,6 +1,5 @@
 {
   "hosting": {
-	  "site": "facebook-clone-95801",
     "public": "build",
     "ignore": [
       "firebase.json",
